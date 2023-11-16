@@ -69,24 +69,22 @@ function funcPromise() {
 
 function funcClass() {
     output.innerHTML = ''
-    output.innerHTML = ``
+    output.innerHTML = `Классы Скоро будут Добавлены !`
 }
 
 function funcCallB() {
     output.innerHTML = ''
-    output.innerHTML = ``
+    output.innerHTML = `КоллБэки скоро будут добавлены !`
 }
 
 function funcArr() {
     output.innerHTML = ''
-    output.innerHTML = ``
+    output.innerHTML = `Массивы то зачем трогать ?) Всё же и так понятно.`
 }
 
-
-function animationstst(){
-    document.body.style.animationPlayStatePaused
-    console.log('Вы остановили анимацию !')
+let anim = document.getElementById('#divv')
+//! Доделать ?
+function showAnim(){
+  // anim.style="animation-play-state: running"
+  document.body.id = "animation-play-state: paused"
 }
-document.querySelector('.control').addEventListener('click', ()=>{
-    document.querySelectorAll('.animation_blocks > span').forEach(el => el.classList.toggle("animation"))
-  });

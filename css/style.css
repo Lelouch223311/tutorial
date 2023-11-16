@@ -123,6 +123,7 @@ main{
     width: 96%;
     height: 90%;
     margin: auto;
+    margin-top: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
     display: flex;
@@ -148,6 +149,7 @@ main{
                 font-size: 8.8px;
                 overflow: auto;
             }
+            margin-top: 5px;
             background-color: black;
             color: red;
             user-select: text;
@@ -162,11 +164,10 @@ main{
     font-size: 50px;
     animation: rainbow 0.5s 1s linear infinite;
 }
-.indexh1:hover,.indexh5:hover{
-    animation-play-state: paused;document.querySelector('.control').addEventListener('click', ()=>{
-        document.querySelectorAll('.animation_blocks > span').forEach(el => el.classList.toggle("animation"))
-      });
+#divv{
+    animation: rainbow 1s 1s linear infinite
 }
+
 @keyframes rainbow {
     0%{
         color: red;
