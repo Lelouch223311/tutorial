@@ -87,6 +87,3 @@ function animationstst(){
     document.body.style.animationPlayStatePaused
     console.log('Вы остановили анимацию !')
 }
-document.querySelector('.control').addEventListener('click', ()=>{
-    document.querySelectorAll('.animation_blocks > span').forEach(el => el.classList.toggle("animation"))
-  });
