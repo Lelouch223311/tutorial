@@ -82,9 +82,4 @@ function funcArr() {
     output.innerHTML = `Массивы то зачем трогать ?) Всё же и так понятно.`
 }
 
-let anim = document.getElementById('#divv')
-//! Доделать ?
-function showAnim(){
-  // anim.style="animation-play-state: running"
-  document.body.id = "animation-play-state: paused"
-}
+
